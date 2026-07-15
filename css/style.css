@@ -1,23 +1,76 @@
 body {
-    font-family: Georgia, serif;
+    font-family: Georgia, "Times New Roman", serif;
     max-width: 900px;
     margin: auto;
-    padding: 20px;
-    line-height: 1.6;
+    padding: 30px;
+    line-height: 1.7;
     color: #333;
+    background-color: #f7f5f2;
 }
 
 header {
     text-align: center;
+    padding: 30px 20px;
     margin-bottom: 40px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #333;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
 }
 
 nav a {
-    margin: 0 10px;
+    margin: 0 12px;
     text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8b4513;
+}
+
+main {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #222;
+}
+
+h3 {
     color: #555;
 }
 
-h1, h2 {
-    color: #222;
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: .9rem;
 }
