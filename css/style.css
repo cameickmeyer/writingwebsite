@@ -173,11 +173,55 @@ hr {
     h2 {
         font-size: 1.75rem;
     }
+.dropdown {
+    width: 100%;
+}
 
+.dropdown-content {
+    position: static;
+    display: block;
+    box-shadow: none;
+    border: none;
+    margin-top: 5px;
+}
+
+.dropdown-content a {
+    padding-left: 30px;
+}
 }
 footer {
     text-align: center;
     margin-top: 40px;
     color: #777;
     font-size: .9rem;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+}
+
+.dropdown-content a:hover {
+    background: #f5f5f5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
