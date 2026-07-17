@@ -239,3 +239,17 @@ footer {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-content .button {
+    margin-top: auto;
+}
