@@ -1,3 +1,9 @@
+.besieged-image {
+    float: right;
+    width: 250px;
+    margin: 0 0 20px 20px;
+    border-radius: 8px;
+}
 body {
     font-family: Georgia, "Times New Roman", serif;
     max-width: 900px;
