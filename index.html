@@ -78,7 +78,16 @@
     </p>
 
     <hr>
+<div id="upcoming-productions"></div>
 
+<script>
+fetch('includes/upcoming-productions.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('upcoming-productions').innerHTML = data;
+    });
+</script>
+    
     <h2>Explore</h2>
 
     <h3>📖 My Writing</h3>
